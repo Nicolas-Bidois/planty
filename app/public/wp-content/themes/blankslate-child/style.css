@@ -11,3 +11,130 @@ Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,mic
 Version: 2023.1688132126
 */
 
+
+
+.header_position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu li {
+    padding: 11px 20px 0px 0px;
+}
+
+.menu-item-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 236px;
+    height: 80px;
+    background-color: #DC9F96;
+
+}
+.menu-item-12 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.menu-item-10 a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+}
+.menu-item-11 a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+
+.Logo {
+    padding: 11px 0px 0px 37px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 60px;
+}
+
+.menu-item-14 a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.wp-block-button__link {
+    background-color: #e3d9d0;
+}
+
+.has-x-large-font-size {
+    font-weight: 800;
+}
+
+.has-background {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.has-large-font-size {
+    font-weight: 800;
+}
+
+.wp-container-1 {
+ position: relative;
+ width: auto;
+ height: 950px;
+}
+
+.wp-image-46 {
+    position: absolute;
+    justify-content: center;
+    top: 470px;
+    left: 720px;
+    width: 349.19px;
+    height: 400.08px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wp-image-47 {
+    position: absolute;
+    justify-content: center;
+    top: 470px;
+    left: 520px;
+    width: 349.19px;
+    height: 400.08px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wp-image-17 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.test {
+   
+}

@@ -29,3 +29,8 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+function register_footer() {
+    register_nav_menu( 'footer', 'Footer' );
+}
+add_action( 'after_setup_theme', 'register_footer' );

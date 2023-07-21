@@ -3,3 +3,27 @@
 [30-Jun-2023 13:35:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\nicol\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
 [30-Jun-2023 13:35:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\nicol\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
 [30-Jun-2023 13:35:27 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\nicol\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[03-Jul-2023 09:04:38 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 19
+[10-Jul-2023 09:43:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 23
+[10-Jul-2023 09:58:49 UTC] PHP Parse error:  syntax error, unexpected identifier "http" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 20
+[10-Jul-2023 09:59:13 UTC] PHP Parse error:  syntax error, unexpected identifier "Logo" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 20
+[10-Jul-2023 09:59:13 UTC] PHP Parse error:  syntax error, unexpected identifier "Logo" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 20
+[10-Jul-2023 09:59:18 UTC] PHP Parse error:  syntax error, unexpected identifier "Logo" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 20
+[10-Jul-2023 10:13:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function afficherImage() in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php:19
+Stack trace:
+#0 C:\Users\nicol\Local Sites\planty\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\nicol\Local Sites\planty\app\public\wp-includes\template.php(718): load_template('C:\\Users\\nicol\\...', true, Array)
+#2 C:\Users\nicol\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\index.php(1): get_header()
+#4 C:\Users\nicol\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\nicol\\...')
+#5 C:\Users\nicol\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\nicol\\...')
+#6 C:\Users\nicol\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\nicol\\...')
+#7 {main}
+  thrown in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 19
+[10-Jul-2023 10:14:43 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_nav_menu" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 28
+[10-Jul-2023 10:14:58 UTC] PHP Parse error:  syntax error, unexpected token "," in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 28
+[10-Jul-2023 10:16:19 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ":" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 28
+[10-Jul-2023 10:23:59 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 20
+[10-Jul-2023 10:24:54 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 20
+[10-Jul-2023 10:26:05 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 20
+[10-Jul-2023 10:28:44 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "</a>" in C:\Users\nicol\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 24
